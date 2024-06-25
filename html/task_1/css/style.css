@@ -1,0 +1,31 @@
+a{
+    color:rgb(29, 247, 254);
+    border: 2px red solid;
+    background-color: rgb(6, 62, 29);
+}
+p{
+    color:green;
+    border: 2px red solid;
+    background-color: aqua;
+}
+h1{
+    color:green;
+    border: 2px red solid;
+}
+div.a{
+    color:green;
+    border: 2px red solid;
+}
+img{
+    width: 500px;
+    padding: 10px;
+    border: 5px rgb(255, 0, 0) solid;
+}
+li{
+    border: 2px rgb(0, 0, 0) dotted; 
+    background-color: rgb(125, 248, 150);
+}
+span{
+    color: red;
+    border: 2px rgb(255, 0, 51) dashed; 
+}
