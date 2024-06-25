@@ -1,4 +1,6 @@
 <?php
     // we have to print-  \"
-    echo "\\\"";
+    echo "\\\"" ."<br>";
+    // we have to print- \\
+    echo "\\\\"
 ?>
