@@ -1,0 +1,8 @@
+.box {
+    border: dotted 2px rgb(96, 139, 168);
+    width: 500px;
+}
+.box > div {
+    border: solid 2px rgb(96, 139, 168);
+    border-radius: 5px;
+}

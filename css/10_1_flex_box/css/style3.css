@@ -1,0 +1,22 @@
+.box {
+    border: dotted 2px rgb(96, 139, 168);
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.box > div {
+    border: solid 2px rgb(96, 139, 168);
+    border-radius: 5px;
+}
+.one {
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+.two {
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+.three {
+    flex-basis: 200px;
+    flex-shrink: 2;
+}
