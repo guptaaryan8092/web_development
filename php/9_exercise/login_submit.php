@@ -24,9 +24,6 @@
     $row = mysqli_fetch_assoc($result);
     if ($row) {
         echo "Hello " . $row['name'] . "<br/>";
-        ?>
-        <a href="dashboard.php">Click Here</a>;
-        <?
     } else {
         echo "Login Failed<br/>";
     }
