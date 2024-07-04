@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $db_hostname = "127.0.0.1";
     $db_username = "root";
     $db_password = "";
@@ -24,8 +25,12 @@
     $row = mysqli_fetch_assoc($result);
     if ($row) {
         echo "Hello " . $row['name'] . "<br/>";
-        setcookie("user_id", $row['id'],time()+3600); // id use because it is unique
-        setcookie('name', $row['name'],time()+ 3600);
+    $_SESSION['user_id'] = $row['id'];
+    $_SESSION['name'] = $row['name'];
+
+    //setcookie("user_id", $row['id'],time()+3600); // id use because it is unique
+    //setcookie('name', $row['name'],time()+ 3600);
+
         ?>
         <a href="dashboard.php">Click Here</a>;
         <?php
