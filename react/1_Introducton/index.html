@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Project</title>
+        <link rel="stylesheet" href="css/app.css" />
+    </head>
+    <body>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
