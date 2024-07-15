@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    border: solid 5px black;
+    height: 100px;
+    width: 300px;
+}
+.e{
+    padding: 10px;
+}

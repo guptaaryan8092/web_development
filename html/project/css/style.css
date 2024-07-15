@@ -1,0 +1,25 @@
+
+.a {
+    text-align: center;
+    margin: 50px 600px 50px 600px ;
+    border-style: solid;
+    border-color: green;
+    padding: 12px 13px;
+   }
+.b {
+    margin: 0px 1000px 0px 0px;
+    font-weight: bold;
+    color: red;
+    border-style: dotted;
+    border-color: lightgreen;
+    border-width: 6px;
+    padding: 13px 14px 15px 16px;
+    background-color: rgb(255, 136, 0);
+}
+.c{
+    font-weight: lighter;
+    border-style: dashed;
+    padding: 15px 16px;
+}
+
+  
