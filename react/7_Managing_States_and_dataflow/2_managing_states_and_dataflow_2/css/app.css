@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex-basis: 50%;
+  }
+  
+  .box {
+    padding: 10px;
+  }
+  
+  button {
+    margin: 8px;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .blue {
+    color: blue;
+  }
+  
+  .green {
+    color: green;
+  }
+  
